@@ -10,7 +10,7 @@
 (setq c-default-style
       '((java-mode . "java") (awk-mode . "awk") (other . "linux")))
 
-(define-key gtags-mode-map "\C-xg" 'ac-complete-gtags)
+;(define-key gtags-mode-map "\C-xg" 'ac-complete-gtags)
 
 (add-hook 'java-mode-hook '(lambda () (ggtags-mode 1) ))
 
