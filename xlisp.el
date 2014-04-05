@@ -18,6 +18,6 @@
 (setq x-select-enable-primary nil)
 (setq x-select-enable-clipboard t)
 
-(require 'color-theme)
-(color-theme-initialize)
-(color-theme-dark-blue)
+;(require 'color-theme)
+;(color-theme-initialize)
+;(color-theme-dark-blue)
