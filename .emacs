@@ -40,6 +40,8 @@
 ;disable version control
 (setq vc-handled-backends nil)
 
+;man all pages
+(setq Man-switches "-a")
 
 ;;Display Settings
 ;hightlight files like ini,batch
