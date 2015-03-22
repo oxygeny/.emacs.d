@@ -23,3 +23,5 @@
 (add-hook 'c++-mode-hook 'c-init-hook)
 (add-hook 'c-mode-hook 'c-init-hook)
 (add-hook 'cc-mode-hook 'c-init-hook)
+
+(require 'json)

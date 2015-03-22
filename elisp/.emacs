@@ -7,7 +7,7 @@
 
 ;;System Settings
 ;customize path
-(setq elisp-path "~/.emacs.d/")
+(setq elisp-path "~/.emacs.d/elisp")
 (add-to-list 'load-path elisp-path)
 
 (when (>= emacs-major-version 24)
