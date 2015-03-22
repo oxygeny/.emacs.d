@@ -10,6 +10,9 @@
 (global-set-key [insertchar] 'ignore)
 (global-set-key [(control ?x) insertchar] 'overwrite-mode)
 
+;set C-m to manpage
+(global-set-key "\C-xm" 'manual-entry)
+
 ;单行卷动
 (global-set-key [(control down)] #'(lambda () (interactive) (scroll-up 1)))
 (global-set-key "\M-n" #'(lambda () (interactive) (scroll-up 1)))
